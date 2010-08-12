@@ -11,7 +11,7 @@ This is an attempt to implement the colemak wide keyboard layout for Linux
 What is Colemak Wide
 ====================
 
-todo
+TODO
 
 
 Layout
@@ -52,7 +52,9 @@ free do edit and contribute. See the first link in the link section for more inf
 Install
 =======
 
-todo
+TODO
+
+TODO: write a script that installs the new layout
 
 
 Links
