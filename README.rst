@@ -45,7 +45,7 @@ free do edit and contribute. See the first link in the link section for more inf
       -----------------------------------------------------------
       | BkSp | A | R | S | T | d | ] | h | N | E | I | O | Entr |
       -----------------------------------------------------------
-      | Shift  | z | x | c | v | b | / | k | m | , | . | Shift  |
+      | Shift  | z | x | c | v | / | b | k | m | , | . | Shift  |
       -----------------------------------------------------------
       | Ctr | Wn | Alt | Space              | Alt | W | M | Ctl |
       -----------------------------------------------------------
