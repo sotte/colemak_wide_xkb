@@ -49,8 +49,8 @@ xkb_symbols "colemak_wide" {
     key <AB02> { [            x,            X, dead_circumflex,       asciitilde ] };
     key <AB03> { [            c,            C,        ccedilla,         Ccedilla ] };
     key <AB04> { [            v,            V,              oe,               OE ] };
-    key <AB05> { [            b,            B,      dead_breve,       asciitilde ] };
-    key <AB06> { [        slash,     question,    questiondown,       asciitilde ] };
+    key <AB05> { [        slash,     question,    questiondown,       asciitilde ] };
+    key <AB06> { [            b,            B,      dead_breve,       asciitilde ] };
     key <AB07> { [            k,            K,  dead_abovering,       asciitilde ] };
     key <AB08> { [            m,            M,     dead_macron,       asciitilde ] };
     key <AB09> { [        comma,         less,    dead_cedilla,       asciitilde ] };
