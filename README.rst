@@ -8,6 +8,7 @@ This is an attempt to implement the colemak wide keyboard layout for Linux
 :Author:    Stefan Otte
 :Started:   2010-08-12 Thu
 
+
 What is Colemak Wide
 ====================
 
@@ -19,8 +20,8 @@ see http://forum.colemak.com/viewtopic.php?id=839&p=1 for more infos.
 Layout
 ======
 
-There are several 'wide' mods out there. So I just picked one I liked. Feel
-free do edit and contribute. See the first link in the link section for more information.
+There are several 'wide' mods out there. Feel free to edit and contribute. See
+the first link in the link section for more information.
 
 ::
 
@@ -51,11 +52,29 @@ free do edit and contribute. See the first link in the link section for more inf
       -----------------------------------------------------------
 
 
+The colemak_wide_alt layout rearranges some keys like brackets in a more
+convenient way for programming::
+
+
+      Wide alt with AltGr
+      _____________________________new___________________________
+      |   |   |   |   |   |   |   |   |   |   |   |   |   | BSp |
+      -----------------------------------------------------------
+      | Tab |   |   |   |   |   |   |   |   |   |   |   |   | \ |
+      -----------------------------------------------------------
+      | BkSp | { | [ | ( | + | - | - | _ | = | ) | ] | } | Entr |
+      -----------------------------------------------------------
+      | Shift  |   |   |   |   |   |   |   |   |   |   | Shift  |
+      -----------------------------------------------------------
+      | Ctr | Wn | Alt | Space              | Alt | W | M | Ctl |
+      -----------------------------------------------------------
+
+
 
 How it works
 ============
 
-*/usr/local/X11/xkb* is the folder with all layout related files. For the
+*/usr/share/X11/xkb* is the folder with all layout related files. For the
 colemak wide layout there is an *symbols/colemak_wide* file that contains the
 layout.
 
@@ -71,7 +90,7 @@ was extended to include the new colemak_wide before the *</layoutlist>* tag::
         </configItem>
     </layout>
 
-colemak_wide is the name of the layout to include.
+colemak_wide/colemak_wide_alt is the name of the layout to include.
 
 
 
